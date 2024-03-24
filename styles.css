@@ -1,0 +1,39 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.header{
+    background-color: #1F2937;
+}
+
+.hero{
+    flex: 1;
+    background-color: #1F2937;
+}
+
+.container1{
+    flex: 1;
+}
+
+.container2{
+    flex: 1;
+    background-color: #E5E7EB;
+}
+
+.container3{
+    flex: 1;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 24px;
+    font-size: 12px;
+}
